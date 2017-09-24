@@ -10,9 +10,9 @@
 * Allows groups of people to work on the same documents (not necessarily code)
 * Created by Linus Torvalds' when he needed a weeklong vacation from working on the Linux Kernel.
   
-## git = ?
-  * "*g*lobal *i*nformation *t*racker (When you’re in a good mood and it works)
-  * "*g*0dd4mn *i*diotic *t*ruckload of sh!t (When it breaks)
+## git == ?
+  * **g**lobal **i**nformation **t**racker (When you’re in a good mood and it works)
+  * **g**0dd4mn **i**diotic **t**ruckload of sh!t (When it breaks)
 
 ## Background:
    * A **git repo** is a folder with a “.git” subfolder that contains information about tracked changes among other things.
