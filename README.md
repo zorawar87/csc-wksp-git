@@ -1,7 +1,7 @@
 # "```git``` - the stupid content tracker"
 <details>
 <summary>Source</Summary>
-<p>``` man git | sed -n '/NAME$/{n;p;}' ```</p>
+<code>man git | sed -n '/NAME$/{n;p;}'</code>
 </details>
 
 * Formally described as a "Source Control Manager" or "Version Control System"
@@ -23,20 +23,32 @@
       4. Dirty Files: Tracked files that have been modified since git last checked
 
 ## Using git and GitHub
+### The difference in git and GitHub
+git is a command-line based software that facilitates version control. It was first released in 2005.
+GitHub is a web-based project that leverages git's functionality and adds its own features. git can be accessed using a terminal emulator. GitHub has its own desktop GUI application and can also be worked on using only its web-app. It was founded on
 
-git is the command line interface. To execute the following commands, you will need to use a terminal emulator.
-
-* To create ***a brand new*** repository 
-  0. Create the repo on GitHub
-     * Creates an empty git repository
-     * Skip this step, if you 
-  1. clone
+### Getting Started
+  1. *Fork* this repository using the "Fork" button on the top-right. This creates a personal copy of the repository and lets you experiment and test changes without influencing the original repo.
+  2. ```clone```
+     * ```clone``` your forked repo by typing 
+     * Change one of the test files
+  3. 
+  
+### To create ***a brand new*** repository 
+  1. ```clone```
      * Creates a local copy (*clone*) of a repository.
      * USAGE:```git clone URL```
-     * Clone this repository: ```git clone https://github.com/zorawar87/csc-wksp-git.git```
-  2. status
-  3. add
+  2. Create a file
+     * 
+  3. ```status```
+  4. add
   4. commit
   5. log
   6. push
   7. pull
+
+### To create ***a brand new repository***
+0. Create a new repo on GitHub from [here](https://github.com/new)
+     * Alternately, you could use ```git init```, but that involves a few more steps.
+     * Give it a name, and *optionally* select any of the following appropriate options.
+  
