@@ -23,16 +23,31 @@
       4. Dirty Files: Tracked files that have been modified since git last checked
 
 ## Using git and GitHub
+
 ### The difference in git and GitHub
 git is a command-line based software that facilitates version control. It was first released in 2005.
+
 GitHub is a web-based project that leverages git's functionality and adds its own features. git can be accessed using a terminal emulator. GitHub has its own desktop GUI application and can also be worked on using only its web-app. It was founded on
 
 ### Getting Started
   1. *Fork* this repository using the "Fork" button on the top-right. This creates a personal copy of the repository and lets you experiment and test changes without influencing the original repo.
   2. ```clone```
-     * ```clone``` your forked repo by typing 
-     * Change one of the test files
-  3. 
+     * ```clone``` your forked repo by typing ```git clone https://github.com/your-username/csc-wksp-git```
+     * This creates a local copy of your repository on your computer.
+  3. ```status```
+     * USAGE: ```git status```
+     * You should see:
+       > On branch master
+       
+       > Your branch is up-to-date with 'origin/master'.
+       
+       > nothing to commit, working directory clean
+     * This means that your local copy is up-to-date with the copy that the server has.
+  4. Make some modifications to one of the repo's files.
+  5. Check the ```status``` again. git will inform you that it has detected a file change.
+  6. ```add```
+     * USAGE: ```git add [path]```
+  
   
 ### To create ***a brand new*** repository 
   1. ```clone```
