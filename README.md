@@ -22,12 +22,18 @@
       3. Staged Files: these files are on a metaphorical stage; they’re going to be commited soon
       4. Dirty Files: Tracked files that have been modified since git last checked
 
-## Using git
+## Using git and GitHub
 
 git is the command line interface. To execute the following commands, you will need to use a terminal emulator.
 
-  1. init
-    * Create an empty Git repository or reinitialize an existing one
+* To create ***a brand new*** repository 
+  0. Create the repo on GitHub
+     * Creates an empty git repository
+     * Skip this step, if you 
+  1. clone
+     * Creates a local copy (*clone*) of a repository.
+     * USAGE:```git clone URL```
+     * Clone this repository: ```git clone https://github.com/zorawar87/csc-wksp-git.git```
   2. status
   3. add
   4. commit
