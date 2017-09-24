@@ -2,7 +2,7 @@
 <details>
 <summary>Source</Summary>
 <p>``` man git | sed -n '/NAME$/{n;p;}' ```</p>
-</detials>
+</details>
 
 * Formally described as a "Source Control Manager" or "Version Control System"
   * stores and manages all changes made to files contents.
