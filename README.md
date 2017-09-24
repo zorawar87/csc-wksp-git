@@ -11,16 +11,16 @@
 * Created by Linus Torvalds' when he needed a weeklong vacation from working on the Linux Kernel.
   
 ## git = ?
-  * "_g_lobal _i_nformation _t_racker" (When you’re in a good mood and it works)
-  * "_g_*dd*mn _i_diotic _t_ruckload of sh*t" (When it breaks_
+  * "*g*lobal *i*nformation *t*racker (When you’re in a good mood and it works)
+  * "*g*0dd4mn *i*diotic *t*ruckload of sh!t (When it breaks)
 
 ## Background:
    * A **git repo** is a folder with a “.git” subfolder that contains information about tracked changes among other things.
    * A repo can contain four types of files
-      1. Untracked Files --- git ignores these
-      2. Tracked Files --- git tracks changes for these files
-      3. Staged Files --- these files are on a metaphorical stage; they’re going to be commited soon
-      4. Dirty Files --- Tracked files that have been modified since git last checked
+      1. Untracked Files: git ignores these
+      2. Tracked Files: git tracks changes for these files
+      3. Staged Files: these files are on a metaphorical stage; they’re going to be commited soon
+      4. Dirty Files: Tracked files that have been modified since git last checked
 
 ## Using git
 
