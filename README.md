@@ -62,6 +62,6 @@ GitHub is a web-based project that leverages git's functionality and adds its ow
   
 
 Additional (and more in-depth) Resources:
- * [git and GitHub documentation](https://help.github.com/articles/git-and-github-learning-resources/)
+ * [git and GitHub resources](https://help.github.com/articles/git-and-github-learning-resources/)
  * [Daniel Pel](https://pel-daniel.github.io/git-init/)
  * [Altassian](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
