@@ -60,3 +60,8 @@ GitHub is a web-based project that leverages git's functionality and adds its ow
      * USAGE: ```git pull```
      * If you or a collaborator makes changes to the repository, you should *pull* their changes before working on new changes. This is the best way to avoid *merge conflicts* (when git fails to automatically merge your new code with an older version). Merge conflicts are most commonly the reason git transforms into a truckload of sh!t. 
   
+
+Additional (and more in-depth) Resources:
+ * [git and GitHub documentation](https://help.github.com/articles/git-and-github-learning-resources/)
+ * [Daniel Pel](https://pel-daniel.github.io/git-init/)
+ * [Altassian](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
