@@ -31,6 +31,7 @@ GitHub is a web-based project that leverages git's functionality and adds its ow
 
 ### Getting Started
   1. *Fork* this repository using the "Fork" button on the top-right. This creates a personal copy of the repository and lets you experiment and test changes without influencing the original repo.
+     * Alternately, you can make your own repository from [here](https://github.com/new).
   2. ```clone```
      * ```clone``` your forked repo by typing ```git clone https://github.com/your-username/csc-wksp-git```
      * This creates a local copy of your repository on your computer.
@@ -47,23 +48,15 @@ GitHub is a web-based project that leverages git's functionality and adds its ow
   5. Check the ```status``` again. git will inform you that it has detected a file change.
   6. ```add```
      * USAGE: ```git add [path]```
-  
-  
-### To create ***a brand new*** repository 
-  1. ```clone```
-     * Creates a local copy (*clone*) of a repository.
-     * USAGE:```git clone URL```
-  2. Create a file
-     * 
-  3. ```status```
-  4. add
-  4. commit
-  5. log
-  6. push
-  7. pull
-
-### To create ***a brand new repository***
-0. Create a new repo on GitHub from [here](https://github.com/new)
-     * Alternately, you could use ```git init```, but that involves a few more steps.
-     * Give it a name, and *optionally* select any of the following appropriate options.
+     * To add all files in the current directory, use ```git add .```; Note that this does not account for deleted files
+     * To add ALL tracked files, use ```git add -A```; Note that this does account for deleted files.
+  7. ```commit```
+     * USAGE: ```git commit -m "short message explaining the changes"```
+     * This publishes your code within the local git repository
+  8. ```push```
+     * USAGE: ```git push -u origin master``` (for the first time) and ```git push``` (subsequently)
+     * pushing changes published your code to your GitHub repository.
+  9. ```pull```
+     * USAGE: ```git pull```
+     * If you or a collaborator makes changes to the repository, you should *pull* their changes before working on new changes. This is the best way to avoid *merge conflicts* (when git fails to automatically merge your new code with an older version). Merge conflicts are most commonly the reason git transforms into a truckload of sh!t. 
   
